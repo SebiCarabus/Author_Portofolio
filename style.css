@@ -1,0 +1,246 @@
+.gradient-background {
+  background: linear-gradient(300deg, #1941e0,#5fc1dc, #9024d3);
+  background-size: 1000% 1000%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html{
+    background-color: rgba(169, 212, 217, 0.516);
+}
+
+.title-font{
+    font-family: "Sansation", sans-serif;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: #fff6e7;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#home{
+    border-radius: 30px;
+}
+#top-navbar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 1rem;
+}
+
+#top-nav-buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#nav-bar-icon{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#top-nav-buttons > a {
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  padding: 4px 12px;
+}
+
+.inline{
+    display: inline;
+}
+
+.flex-o{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+}
+.flex-h{
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.photo-fluid{
+    width: 100%;
+    height: auto;
+}
+.fluid-title{
+    font-size: 50px;
+}
+.fluid-text{
+    font-size: 20px;
+}
+.photo-round{
+    border-radius: 30px;
+}
+.fluid-container{
+    min-width: 280px;
+    width: 40vw;
+}
+#icon svg{
+    height: 20px;
+    width: 20px;
+
+}
+
+.fluid-text, .fluid-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.grid-books{
+    border-radius: 30px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 1fr 1fr;
+}
+.book{
+    width: 30vw;
+    padding: 50px;
+}
+
+#book1{
+    background-color: #9bdef19e;
+    border-top-right-radius: 30px;
+}
+#description1{
+    background-color: white;
+    border-top-left-radius: 30px;
+    padding: 1rem;
+}
+#book2{
+    background-color: #d7abf186;
+    border-bottom-left-radius: 30px;
+}
+
+#description2{
+    background-color: white;
+    border-bottom-right-radius: 30px;
+    padding: 1rem;
+}
+.title-grid{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: auto;
+}
+.title-font > .title-font{
+    grid-column: span 2;
+}
+.book-title{
+    font-size: 2rem
+}
+.book-text{
+    font-size: 1.5rem;
+}
+a.buy-button{
+    text-decoration: none; color: black;
+}
+.buy-button{
+    background-color: rgb(177, 218, 117);
+    padding: 15px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+.buy-button:hover{
+    background-color: rgb(126, 192, 126);
+}
+.footer-text{
+        font-size: 1rem;
+}
+@media (max-width: 656px){
+    #home .fluid-title,#about .fluid-title, .grid-books > .fluid-title, #books  .fluid-title{
+        font-size: 20px;
+    }
+    #home .fluid-text,#about .fluid-text{
+        font-size: 10px;
+    }
+    #icon .title-font{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    #icon svg{
+    height: 10px;
+    width: 10px;
+    }
+
+    #about > .flex-o{
+        align-content: center;
+        flex-direction: column-reverse;
+    }
+    .grid-books, .title-grid{
+        grid-template-columns: 38vw 38vw;
+    }
+    .book-title{
+    font-size: 1.0rem
+    }
+    .book-text{
+    font-size: 0.5rem;
+    }
+    .buy-button{
+    color: black;
+    padding: 10px;
+    font-size: 0.5rem;
+    }
+    .footer-text{
+        font-size: 0.5rem;
+    }
+}
+
+@media (656px <= width <= 900px){
+   .book-title{
+    font-size: 1.0rem
+    }
+    .book-text{
+    font-size: 0.5rem;
+    }
+    .buy-button{
+    padding: 10px;
+    font-size: 0.5rem;
+    }
+    .footer-text{
+        font-size: 0.5rem;
+    }
+}
+
+@media (656px <= width <= 900px){
+    .book-title{
+    font-size: 1.5rem
+    }
+    .book-text{
+    font-size: 1.0rem;
+    }
+    .buy-button{
+    padding: 15px;
+    font-size: 1.0rem;
+    }
+    .footer-text{
+        font-size: 0.75rem;
+    }
+}
