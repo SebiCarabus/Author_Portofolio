@@ -175,10 +175,19 @@ a.buy-button{
 }
 @media (max-width: 656px){
     #home .fluid-title,#about .fluid-title, .grid-books > .fluid-title, #books  .fluid-title{
-        font-size: 20px;
+        font-size: 25px;
     }
     #home .fluid-text,#about .fluid-text{
-        font-size: 10px;
+        font-size: 15px;
+    }
+    #home .photo-fluid, #about .photo-fluid{
+        width: 77vw;
+    }
+    #home .photo-fluid, #about .photo-fluid{
+        width: 77vw;
+    }
+    #home .fluid-container, #about .fluid-container{
+        width: 77vw;
     }
     #icon .title-font{
         font-size: 15px;
