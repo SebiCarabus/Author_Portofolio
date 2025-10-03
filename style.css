@@ -117,7 +117,7 @@ body{
     border: 1px solid black;
     display: grid;
     grid-template-columns: 40vw 40vw;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .book{
     width: 30vw;
@@ -139,7 +139,7 @@ body{
     background-color: #d7abf186;
 }
 #book3{
-    background-color: #a4deee86;
+    background-color: #8589e29e;
     border-bottom-right-radius: 30px;
 }
 
@@ -260,3 +260,4 @@ a.buy-button{
         font-size: 0.75rem;
     }
 }
+
