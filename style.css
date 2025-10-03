@@ -128,20 +128,27 @@ body{
     background-color: #9bdef19e;
     border-top-right-radius: 30px;
 }
-#description1{
+.description-left{
     background-color: white;
-    border-top-left-radius: 30px;
     padding: 1rem;
+}
+#start-description{
+    border-top-left-radius: 30px;
 }
 #book2{
     background-color: #d7abf186;
-    border-bottom-left-radius: 30px;
+}
+#book3{
+    background-color: #a4deee86;
+    border-bottom-right-radius: 30px;
 }
 
-#description2{
+.description-right{
     background-color: white;
-    border-bottom-right-radius: 30px;
     padding: 1rem;
+}
+#end-description{
+    border-bottom-left-radius: 30px;
 }
 .title-grid{
     display: grid;
