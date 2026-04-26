@@ -140,9 +140,14 @@ body{
 }
 #book3{
     background-color: #8589e29e;
+}
+#book4{
+    background-color: #d7abf186;
+}
+#book5{
+    background-color: #9bdef19e;
     border-bottom-right-radius: 30px;
 }
-
 .description-right{
     background-color: white;
     padding: 1rem;
@@ -260,4 +265,3 @@ a.buy-button{
         font-size: 0.75rem;
     }
 }
-
